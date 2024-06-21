@@ -1,0 +1,17 @@
+{
+  "name": "warpforge",
+  "description": "warpforge monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t. nguyen",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/api"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}
